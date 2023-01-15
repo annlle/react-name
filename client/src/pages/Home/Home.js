@@ -54,6 +54,59 @@ const Home = (props) => {
                 carouselType={carouselConstants.MAIN_SLIDER}
               />
             </div>
+
+            <div className={styles.services_container}>
+              <h2>All Branding Agency Services</h2>
+              <p className={styles.services_p}>Let our Squad 250K+ experts from around the world help you launch your brand!</p>
+              <div className={styles.cards}>
+                <div className={styles.card}>
+                  <i class="fas fa-star" />
+                  <h3>Premium domains</h3>
+                  <p>Curated brandable domains avaliable for immdediate purchase</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-users" />
+                  <h3>Naming Contest</h3>
+                  <p>Crowdsourced Name ideas from iur creative community</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-user-tie" />
+                  <h3>Managed Contests</h3>
+                  <p>Full Agency-level Experience, led by Branding Consultant</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-clipboard" />
+                  <h3>Logo Contests</h3>
+                  <p>Professional logo design contests</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-comments" />
+                  <h3>Tagline Contests</h3>
+                  <p>Taglines, slogan, and strapline ideas from our creative community</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-video" />
+                  <h3>Video creation</h3>
+                  <p>Get perfectly branded videos optimized for results</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-chart-bar" />
+                  <h3>Audience Testing</h3>
+                  <p>Fast, effective naming and branding research with consumer test panels</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-shopping-bag" />
+                  <h3>Trademark Research</h3>
+                  <p>Comphrensive Trademark Research across 100+ countries</p>
+                </div>
+                <div className={styles.card}>
+                  <i class="fas fa-copyright" />
+                  <h3>Trademark Filling</h3>
+                  <p>Trademark filling service by Licensed Trademark attorneys</p>
+                </div>
+              </div>
+            </div>
+            
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
               <div className={styles.cardContainer}>
