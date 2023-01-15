@@ -67,7 +67,7 @@ const Home = (props) => {
                 <div className={styles.card}>
                   <i class="fas fa-users" />
                   <h3>Naming Contest</h3>
-                  <p>Crowdsourced Name ideas from iur creative community</p>
+                  <p>Crowdsourced Name ideas from our creative community</p>
                 </div>
                 <div className={styles.card}>
                   <i class="fas fa-user-tie" />
@@ -106,7 +106,7 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            
+
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
               <div className={styles.cardContainer}>
